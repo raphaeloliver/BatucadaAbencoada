@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tabs>
+    <tab
+        id="@+id/tab_blue"
+        icon="@drawable/agenda"
+        title="Agenda" />
+    <tab
+        id="@+id/tab_red"
+        icon="@drawable/photo"
+        title="Fotos" />
+    <tab
+        id="@+id/tab_green"
+        icon="@drawable/video"
+        title="Videos" />
+</tabs>
