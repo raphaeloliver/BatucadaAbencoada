@@ -2,15 +2,15 @@
 
 <tabs>
     <tab
-        id="@+id/tab_blue"
         icon="@drawable/agenda"
+        id="@+id/tab_blue"
         title="Agenda" />
     <tab
-        id="@+id/tab_red"
         icon="@drawable/photo"
+        id="@+id/tab_red"
         title="Fotos" />
     <tab
+        icon="@drawable/mapa"
         id="@+id/tab_green"
-        icon="@drawable/video"
-        title="Videos" />
+        title="Mapa" />
 </tabs>

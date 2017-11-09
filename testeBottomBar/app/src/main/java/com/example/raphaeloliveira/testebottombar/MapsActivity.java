@@ -1,4 +1,4 @@
-package com.example.raphaeloliveira.testebottombar.view;
+package com.example.raphaeloliveira.testebottombar;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -8,9 +8,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 
-import com.example.raphaeloliveira.testebottombar.CallBack;
-import com.example.raphaeloliveira.testebottombar.LocationGPS;
-import com.example.raphaeloliveira.testebottombar.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -26,7 +23,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private double LONG = 0;
     private GoogleMap mMap;
     SupportMapFragment mapFragment;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +59,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-
         LatLngBounds zoom = new LatLngBounds(new LatLng(LAT, LONG), new LatLng(LAT, LONG));
 
         LatLng position = new LatLng(LAT, LONG);
@@ -90,9 +85,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //Marker de uma posição fixa
         LatLng sydney = new LatLng(-23.4742357, -46.6638387);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Rua do canavial, 209 - Vila nova Cachoeirinha"));
-
-
-
     }
 
     @Override

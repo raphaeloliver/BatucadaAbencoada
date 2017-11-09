@@ -11,19 +11,16 @@ public class Splash extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 
-        Thread timerThread = new Thread(){
+        Thread timerThread = new Thread() {
             @Override
-            public void run(){
-                try{
+            public void run() {
+                try {
                     sleep(1000);
-                }
-                catch (InterruptedException e){
+                } catch (InterruptedException e) {
                     e.printStackTrace();
-                }
-                finally {
+                } finally {
                     Intent intent = new Intent(Splash.this, MainActivity.class);
                     startActivity(intent);
-
                 }
             }
         };

@@ -6,7 +6,6 @@
 
     <include layout="@layout/container"/>
 
-    <!-- This could be your fragment container, or something -->
     <FrameLayout
         android:id="@+id/contentContainer"
         android:layout_width="match_parent"

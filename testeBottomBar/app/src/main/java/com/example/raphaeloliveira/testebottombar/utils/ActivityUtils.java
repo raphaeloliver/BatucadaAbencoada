@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentTransaction;
 
 public class ActivityUtils {
 
-    public static void addFragmentToActivity (@NonNull FragmentManager fragmentManager, @NonNull Fragment fragment, int frameId) {
+    public static void addFragmentToActivity(@NonNull FragmentManager fragmentManager, @NonNull Fragment fragment, int frameId) {
         if (fragmentManager == null) {
             throw new RuntimeException("fragmentManager is null");
         }
@@ -21,7 +21,7 @@ public class ActivityUtils {
         transaction.commit();
     }
 
-    public static void replaceFragmentToActivity (@NonNull FragmentManager fragmentManager, @NonNull Fragment fragment, int frameId) {
+    public static void replaceFragmentToActivity(@NonNull FragmentManager fragmentManager, @NonNull Fragment fragment, int frameId) {
         if (fragmentManager == null) {
             throw new RuntimeException("fragmentManager is null");
         }
