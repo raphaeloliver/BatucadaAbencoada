@@ -9,6 +9,7 @@ import com.example.raphaeloliveira.testebottombar.fragments.BlueFragment;
 import com.example.raphaeloliveira.testebottombar.fragments.GreenFragment;
 import com.example.raphaeloliveira.testebottombar.fragments.RedFragment;
 import com.example.raphaeloliveira.testebottombar.utils.ActivityUtils;
+import com.example.raphaeloliveira.testebottombar.view.MapsActivityFragment;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
